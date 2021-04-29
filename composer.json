@@ -1,0 +1,30 @@
+{
+    "name": "musa11971/nova-status-card",
+    "description": "A Laravel Nova card.",
+    "keywords": [
+        "laravel",
+        "nova"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1.0",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "musa11971\\NovaStatusCard\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "musa11971\\NovaStatusCard\\CardServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
