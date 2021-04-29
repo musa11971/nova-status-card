@@ -1,14 +1,14 @@
 {
     "name": "musa11971/nova-status-card",
-    "description": "A Laravel Nova card.",
+    "description": "Display a status card on your Laravel Nova dashboard.",
     "keywords": [
         "laravel",
-        "nova"
+        "nova",
+        "status"
     ],
     "license": "MIT",
     "require": {
-        "php": ">=7.1.0",
-        "ext-json": "*"
+        "php": ">=7.1.0"
     },
     "autoload": {
         "psr-4": {
@@ -21,10 +21,5 @@
                 "musa11971\\NovaStatusCard\\CardServiceProvider"
             ]
         }
-    },
-    "config": {
-        "sort-packages": true
-    },
-    "minimum-stability": "dev",
-    "prefer-stable": true
+    }
 }
